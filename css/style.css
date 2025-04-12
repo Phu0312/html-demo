@@ -1,0 +1,139 @@
+.content_logo img {
+    width: 10%;
+    padding-left: 42%;
+    margin-bottom: 0.5%;
+}
+.content_menu {
+    background: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.content_menu ul {
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    justify-content: center;
+    padding: 7px 0;
+    width: 80%;
+    margin: 0;
+}
+
+.content_menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content_banner {
+    display: flex
+    
+}
+
+.content_banner img {
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+.content_about {
+    display: flex;
+}
+
+.content_about .text  {
+    padding: 20px 50px;
+    width: 55%;
+}
+
+.content_about .text h2 {
+    color: blue;
+    font-weight: bold;
+}
+
+.content_about .text p {
+    text-align: justify;
+}
+
+.content_about .img {
+    width: 45%;
+    margin-top: 30px;
+}
+
+.content_about .img img {
+    width: 70%;
+}
+
+.service h1 {
+    text-align: center;
+    color: blue;
+}
+
+.detail_top, .detail_bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2%
+    
+}
+
+.detail_top div, .detail_bottom div {
+    width: 25%;
+    height: 220px;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    border: 2px double orange;
+    border-radius: 10px;
+}
+
+.detail_top div a, .detail_bottom div a {
+    color: white;
+    background: blue;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.detail_top div img, .detail_bottom div img {
+    padding-top: 4%;
+    width: 52%;
+}
+
+.refri {
+    text-align: center;
+    color: blue;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2%
+}
+
+.all div img {
+    width: 80%;
+    padding-top: 9%;
+}
+
+.all div:nth-of-type(4) img {
+    width: 80%;
+    height: 250px;
+    padding-top: 9%;
+}
+.all div {
+    background: gray;
+    width: 21%;
+    height: 400px;
+}
+
+.all div p {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    padding: 2px;
+    margin-top: 50px;
+    background: grey;
+}
+
+
+
